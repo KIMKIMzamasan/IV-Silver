@@ -1,0 +1,191 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+
+.header{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0px;
+    top: 0;
+    background-color: transparent;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 50px;
+    height: auto;
+    font-size: 10px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.title h1{
+    font-size: 40px;
+    margin: auto;
+}
+
+.sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin: auto;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+
+
+/* Style for the sections */
+.home {
+    background-color:aquamarine;
+    height: 100vh;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}  
+
+.category{
+    background-color: aqua;
+    height: 100vh;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.services{
+    background-color: olive;
+    height: 100vh;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about{
+    background-color: lightblue;
+    height: 100vh;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+/*footer*/
+.return{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 20px;
+    margin: auto;
+}
+
+.return a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.latest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 1px;
+    margin: auto;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 20px;
+    margin: auto;
+    gap: 10px;
+}
+
+.email input{
+    flex: 1;
+    max-width: 400px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+    background-color: transparent;
+}
+
+.email button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+.footer-columns{
+    display: grid;
+    grid-template-columns:5fr 1fr 1fr 1fr 1fr 5fr;
+    gap: 30px;
+}
+
+.footer-columns a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
