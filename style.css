@@ -89,8 +89,11 @@ body {
 }
 
 .home p {
-    padding: 5px 20%;
-    margin: 50px;
+    margin: auto;
+    padding: 10px 20%;
+    padding-bottom: 50px;
+    
+
 }
 
 .intro {
@@ -116,22 +119,89 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding: 20px;
+    gap: 20px;
+    padding: 0 40px;
 }
 
-.category, .services, .about {
-    height: 100vh;
-    padding: 100px 20px;
+.intro-description p {
+    margin: auto;
+    padding: 10px 40px;
+}
+
+.intro-description button {
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+    margin-left: auto;
+    align-items: center;
+    padding: 10px 15px;
+    display: flex;
+
+}
+.category{
+    height: auto;
+    width: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
 
-.category { background-color: aqua; }
+.categories{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+
+.categories img{
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    height: auto;
+}
+
+.categories a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.categories h2{
+    margin: auto;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+.services{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.about{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 .services { background-color: olive; }
 .about { background-color: lightblue; }
-
 
 /*footer*/
 .return{
@@ -148,7 +218,6 @@ body {
     color: black;
     font-size: 10px;
     padding: 5px 5px;
-    border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
@@ -182,7 +251,8 @@ body {
 
 .email button{
     border: none;
-    background-color: transparent;
+    background-color: black;
+    color: white;
     cursor: pointer;
     padding: 10px 15px;
 }
